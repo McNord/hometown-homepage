@@ -9,17 +9,16 @@ html {
 }
 
 body {
-    margin: 0;
     text-align: center;
-
+    margin: 0;
 }
 
 .hero-image {
     background-image: url("./images/torshov.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top 30% center;
-    padding: 200px 0;
+    background-position: top 35% center;
+    padding: 225px 0;
 }
 
 .hero-container {
@@ -40,5 +39,30 @@ body {
     color: white;
     padding: 5px 20px;
     border-radius: 10px;
-    margin: 0;
+}
+
+.activities {
+    display: block;
+    background-color: #f1faee;
+    color: #1D3557;
+    padding: 40px 0 50px 0;
+    
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.activities-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.sports-container,
+.theatre-container,
+.park-container {
+    padding: 40px;
+    outline: 2px solid black;
 }
