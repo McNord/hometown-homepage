@@ -8,7 +8,19 @@ html {
     box-sizing: inherit;
 }
 
-#main {
-    background-image: url('./images/slottsruin.jpg');
+body {
+    margin: 0;
+}
+
+.hero-image {
+    background-image: url("./images/torshov.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 30% center;
+    padding: 200px 0;
+}
+
+.hero-text {
+    color: white;
+    text-align: center;
 }
