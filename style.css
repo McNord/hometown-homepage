@@ -49,7 +49,7 @@ body {
     
 }
 
-img {
+.activities-img {
     width: 100px;
     border-radius: 50%;
 }
@@ -64,4 +64,23 @@ img {
 .theatre-container,
 .park-container {
     padding: 40px;
+}
+
+.card-container {
+    display: flex;
+    background-color: #A8DADC;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto; 
+    align-items: center;
+}
+
+#avatar {
+    width: 180px;
+    margin: 25px 0 25px 15px;
+}
+
+#card-font {
+    font-style: italic;
 }
